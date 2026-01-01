@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function MapSection() {
   return (
-    <section className="section-padding bg-gradient-to-b from-white to-gray-50">
+    <section className="section-padding bg-gradient-to-b from-white/80 to-gray-50/80 backdrop-blur-lg">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

@@ -21,7 +21,7 @@ interface TeamSectionProps {
 
 export default function TeamSection({ teamMembers, loading }: TeamSectionProps) {
   return (
-    <section id="team" className="section-padding bg-white">
+    <section id="team" className="section-padding bg-white/80 backdrop-blur-lg">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

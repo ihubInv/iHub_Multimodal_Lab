@@ -63,7 +63,7 @@ export default function TeamCard({ member, index }: TeamCardProps) {
           </div>
         </div>
       </div>
-      <div className="p-6 text-center bg-gradient-to-b from-white to-gray-50">
+      <div className="p-6 text-center bg-gradient-to-b from-white/70 to-gray-50/70 backdrop-blur-md">
         <h4 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-primary-600 transition-colors">{member.name}</h4>
         <p className="text-gray-600 font-medium">{member.position}</p>
       </div>

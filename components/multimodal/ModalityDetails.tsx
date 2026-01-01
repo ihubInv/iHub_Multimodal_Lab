@@ -54,7 +54,7 @@ const modalities = [
 
 export default function ModalityDetails() {
   return (
-    <section className="section-padding bg-white">
+    <section className="section-padding bg-white/80 backdrop-blur-lg">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -89,7 +89,7 @@ export default function ModalityDetails() {
                 </div>
                 <p className="text-gray-700 mb-6 font-semibold">{modality.lead}</p>
                 <div className="overflow-x-auto">
-                  <table className="w-full bg-white rounded-lg overflow-hidden">
+                  <table className="w-full bg-white/70 backdrop-blur-md rounded-lg overflow-hidden border border-white/30">
                     <thead className="bg-primary-500 text-white">
                       <tr>
                         <th className="px-6 py-4 text-left">Data Type</th>

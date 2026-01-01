@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function EvolutionJourney() {
   return (
-    <section className="section-padding bg-white">
+    <section className="section-padding bg-white/80 backdrop-blur-lg">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

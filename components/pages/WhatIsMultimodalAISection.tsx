@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function WhatIsMultimodalAISection() {
   return (
-    <section id="what-is-multimodal-ai" className="section-padding bg-gradient-to-b from-gray-50 to-white pt-0 pb-0">
+    <section id="what-is-multimodal-ai" className="section-padding bg-gradient-to-b from-gray-50/80 to-white/80 backdrop-blur-lg pt-0 pb-0">
       <div className="w-full px-[40px]">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

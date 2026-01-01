@@ -24,7 +24,7 @@ export default function ImpactRadar() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="max-w-6xl mx-auto bg-white rounded-2xl p-8 shadow-lg"
+          className="max-w-6xl mx-auto bg-white/70 backdrop-blur-md rounded-2xl p-8 shadow-lg border border-white/30"
         >
           <div className="text-center text-gray-600">
             <p className="text-lg mb-4">

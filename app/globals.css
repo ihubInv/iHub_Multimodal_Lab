@@ -238,7 +238,7 @@ body::after {
 
 /* Card Styles */
 .card-modern {
-  @apply bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100;
+  @apply bg-white/70 backdrop-blur-md rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-white/30;
 }
 
 .card-gradient {

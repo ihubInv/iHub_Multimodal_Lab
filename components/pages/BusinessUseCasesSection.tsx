@@ -17,7 +17,7 @@ interface BusinessUseCasesSectionProps {
 
 export default function BusinessUseCasesSection({ businessUseCases }: BusinessUseCasesSectionProps) {
   return (
-    <section id="business-usecases" className="section-padding bg-white">
+    <section id="business-usecases" className="section-padding bg-white/80 backdrop-blur-lg">
       <div className="w-full px-[40px]">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -44,7 +44,7 @@ export default function BusinessUseCasesSection({ businessUseCases }: BusinessUs
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 whileHover={{ y: -8 }}
-                className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group cursor-pointer border border-gray-100"
+                className="bg-white/70 backdrop-blur-md rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group cursor-pointer border border-white/30"
               >
                 {/* Image */}
                 <div className="relative h-40 sm:h-48 overflow-hidden">

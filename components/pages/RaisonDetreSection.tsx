@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function RaisonDetreSection() {
   return (
-    <section id="raison-detre" className="section-padding bg-gradient-to-b from-gray-50 to-white pb-0">
+    <section id="raison-detre" className="section-padding bg-gradient-to-b from-gray-50/80 to-white/80 backdrop-blur-lg pb-0">
       <div className="w-full">
         <div className="w-full px-[40px]">
           <motion.div

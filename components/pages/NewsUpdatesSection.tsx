@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function NewsUpdatesSection() {
   return (
-    <section id="news-media" className="section-padding bg-gradient-to-b from-gray-50 to-white">
+    <section id="news-media" className="section-padding bg-gradient-to-b from-gray-50/80 to-white/80 backdrop-blur-lg">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -28,7 +28,7 @@ export default function NewsUpdatesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100"
+              className="bg-white/70 backdrop-blur-md rounded-2xl shadow-lg overflow-hidden border border-white/30"
             >
               <div className="p-4 sm:p-6">
                 <div className="flex items-center mb-4">
@@ -59,7 +59,7 @@ export default function NewsUpdatesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100"
+              className="bg-white/70 backdrop-blur-md rounded-2xl shadow-lg overflow-hidden border border-white/30"
             >
               <div className="p-4 sm:p-6">
                 <div className="flex items-center mb-4">
@@ -90,7 +90,7 @@ export default function NewsUpdatesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100"
+              className="bg-white/70 backdrop-blur-md rounded-2xl shadow-lg overflow-hidden border border-white/30"
             >
               <div className="p-4 sm:p-6">
                 <div className="flex items-center mb-4">
@@ -121,7 +121,7 @@ export default function NewsUpdatesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100"
+              className="bg-white/70 backdrop-blur-md rounded-2xl shadow-lg overflow-hidden border border-white/30"
             >
               <div className="p-4 sm:p-6">
                 <div className="flex items-center mb-4">
@@ -152,7 +152,7 @@ export default function NewsUpdatesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.5 }}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100"
+              className="bg-white/70 backdrop-blur-md rounded-2xl shadow-lg overflow-hidden border border-white/30"
             >
               <div className="p-4 sm:p-6">
                 <div className="flex items-center mb-4">
